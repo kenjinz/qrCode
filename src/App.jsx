@@ -5,7 +5,7 @@ function App() {
     <div className="w-screen h-screen bg-light-gray px-6 py-10 items-center justify-center flex">
       <section className=" bg-white flex items-center flex-col rounded-[15px] mobile:w-[320px] ">
         <div className="px-4 py-4 ">
-          <img src={imgQrCode} className="rounded-[15px]" />
+          <img src={imgQrCode} className="rounded-[15px]" alt="qr code" />
           <div className="px-3">
             <h1 className="font-bold mt-4 text-center text-dark-blue text-xl">
               Improve your front-end skills by building projects
